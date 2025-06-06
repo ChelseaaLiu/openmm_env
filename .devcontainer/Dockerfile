@@ -17,8 +17,8 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64
 # Add conda to PATH
 ENV PATH /opt/conda/bin:$PATH
 
-# Install pandas
-RUN conda install -y pandas
+# Install openmm
+RUN conda install -y openmm==8.1.1
 
 # Create a non-root user
 RUN useradd -ms /bin/bash vscode && \
