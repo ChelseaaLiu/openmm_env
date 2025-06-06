@@ -28,10 +28,7 @@
 - 可執行 `python --version` 確認 Python 版本
 - 可執行 `conda list` 查看已安裝套件
 - 可執行 `nvidia-smi` 確認 CUDA 狀態
-- 可執行以下命令檢查系統版本：
-  ```bash
-  lsb_release -a
-  ```
+- 可執行以下命令檢查系統版本：`lsb_release -a`
 
 ## 開發建議
 
