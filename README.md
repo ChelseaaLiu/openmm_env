@@ -4,7 +4,7 @@
 
 - Docker Desktop (Windows/Mac) 或 Docker Engine (Linux)
 - Visual Studio Code
-- VSCode Remote - Containers 擴展
+- VSCode Remote - Containers 擴展 (ms-vscode-remote.remote-containers)
 
 ## 已安裝軟體
 
@@ -12,14 +12,14 @@
 - CUDA Toolkit: 11.2
 - Miniconda: Python 3.8 版本
 - Python 套件 :
-  - pandas
+  - openmm==8.1.1
 
 ## 使用步驟
 
 1. 克隆此專案到本地
 2. 使用 VSCode 開啟專案資料夾
 3. 按下 `Ctrl+Shift+P` 開啟命令面板
-4. 選擇 "Remote-Containers: Reopen in Container"
+4. 選擇 "Dev Containers: Reopen in Container"
 5. 等待容器建置完成 ( 首次建置可能需要 5-10 分鐘 )
 
 ## 容器建置完成後
