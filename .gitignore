@@ -7,3 +7,6 @@
 !.devcontainer/
 !devcontainer.json
 !Dockerfile
+!tests
+!__init__.py
+!test_openmm.py
