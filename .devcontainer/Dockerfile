@@ -3,6 +3,7 @@ FROM nvidia/cuda:11.2.2-runtime-ubuntu20.04
 
 # Install basic utilities
 RUN apt-get update && apt-get install -y \
+    lsb-release \
     wget \
     git \
     build-essential \
