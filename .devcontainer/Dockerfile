@@ -1,5 +1,5 @@
 # Use Ubuntu 20.04 with CUDA 11.2 base image
-FROM nvidia/cuda:11.2.2-runtime-ubuntu20.04
+FROM nvidia/cuda:11.2.2-devel-ubuntu20.04
 
 # Install basic utilities
 RUN apt-get update && apt-get install -y \
@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     git \
     build-essential \
+    nvidia-utils-525 \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Miniconda for Python 3.8
