@@ -7,9 +7,6 @@
   "runArgs": ["--gpus", "all"],
   "customizations": {
     "vscode": {
-      // "settings": {
-      //   "terminal.integrated.shell.linux": "/bin/bash"
-      // },
       "extensions": [
         "ms-python.python@2024.22.0",
         "ms-python.debugpy@2024.14.0",
