@@ -12,7 +12,7 @@
 - CUDA Toolkit: 11.2
 - Miniconda: Python 3.8 版本
 - Python 套件 :
-  - openmm==8.1.1
+  - openmm[cuda11.2]
 
 ## 使用步驟
 
