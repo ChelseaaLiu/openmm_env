@@ -19,7 +19,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64
 ENV PATH /opt/conda/bin:$PATH
 
 # Install openmm
-RUN pip install openmm==8.1.1
+RUN pip install openmm[cuda11.2]
 
 # Create a non-root user
 RUN useradd -ms /bin/bash vscode && \
