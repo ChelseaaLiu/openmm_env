@@ -30,10 +30,18 @@
 - 可執行 `nvidia-smi` 確認 CUDA 狀態
 - 可執行以下命令檢查系統版本：`lsb_release -a`
 
+## 環境驗證
+
+- 可執行以下命令測試 OpenMM 環境是否正常：
+
+  ```bash
+  python3 tests/test_openmm.py
+  ```
+
 ## 開發建議
 
-- 所有 Python 套件安裝請使用 conda:
+- Python 套件安裝可使用 conda 或 pip:
   ```bash
-  conda install [ 套件名稱 ]
+  conda install [ 套件名稱 ]   # 或使用 pip install [ 套件名稱 ]
   ```
 - 如需額外系統套件，可修改 `.devcontainer/Dockerfile` 後重建容器
