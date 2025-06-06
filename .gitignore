@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Except these files that should be version controlled
+!.gitignore
+!README.md
+!.devcontainer/
+!devcontainer.json
+!settings.json
