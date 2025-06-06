@@ -6,4 +6,4 @@
 !README.md
 !.devcontainer/
 !devcontainer.json
-!settings.json
+!Dockerfile
